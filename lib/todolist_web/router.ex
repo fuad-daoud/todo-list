@@ -20,13 +20,6 @@ defmodule TodolistWeb.Router do
     get "/", PageController, :home
   end
 
-  # Other scopes may use custom stacks.
-  scope "/api", TodolistWeb do
-    pipe_through :api
-
-    resources "/todos", TodoController, except: [:new, :edit]
-  end
-
   # Enable LiveDashboard and Swoosh mailbox preview in development
   if Application.compile_env(:todolist, :dev_routes) do
     # If you want to use the LiveDashboard in production, you should put
