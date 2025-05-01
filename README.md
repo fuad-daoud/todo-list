@@ -1,5 +1,8 @@
 # Todolist
 
+
+# Archived because omar quited doing this, so I will doing another project I am actually interseted in
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
